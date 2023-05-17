@@ -35,3 +35,10 @@ body{
 .dice-btn{
     background-color: var(--neonGreen);
 }
+
+.dice-btn:hover{
+/* box-shadow: var(--neonGreen) 0px 2px 4px 0px, var(--neonGreen) 0px 2px 16px 0px; */
+box-shadow: var(--neonGreen) 0px 8px 24px, var(--neonGreen) 0px 24px 80px;
+/* box-shadow: var(--neonGreen) 0px 22px 70px 4px; */
+
+}
