@@ -14,3 +14,23 @@
 body{
     font-family: "Manrope";
 }
+
+.main-bg {
+    background-color: var(--darkBlue);
+}
+
+.app{
+    background-color: var(--darkGrayishBlue);
+}
+
+.advice-no{
+    color: var(--neonGreen);
+}
+
+.advice-quote{
+    color: var(--lightCyan);
+}
+
+.dice-btn{
+    background-color: var(--neonGreen);
+}
