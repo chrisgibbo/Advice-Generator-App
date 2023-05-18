@@ -36,6 +36,9 @@ body{
     background-color: var(--neonGreen);
 }
 
+.app:hover{
+    box-shadow: var(--neonGreen) 0px 1px 4px;}
+
 .dice-btn:hover{
 /* box-shadow: var(--neonGreen) 0px 2px 4px 0px, var(--neonGreen) 0px 2px 16px 0px; */
 box-shadow: var(--neonGreen) 0px 8px 24px, var(--neonGreen) 0px 24px 80px;
