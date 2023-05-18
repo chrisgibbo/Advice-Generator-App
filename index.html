@@ -12,12 +12,12 @@
 <body class="main-bg flex items-center justify-center h-screen">
 
     <div class="app flex flex-col items-center justify-center pt-8 max-w-md rounded-2xl">
-        <div class="advice-no uppercase tracking-widest text-xs mb-6" id="adviceNo"></div>
-        <div class="advice-quote w-9/12 text-center text-xl mb-6" id="adviceQuote">  
+        <div class="advice-no uppercase tracking-widest text-xs mb-6" id="advice-num"></div>
+        <div class="advice-quote w-9/12 text-center text-xl mb-6" id="advice-quote">  
         </div>
         <img class="px-16 mb-4" src="images/pattern-divider-desktop.svg" alt="divider">
     
-        <button class="dice-btn p-4 rounded-full relative top-6">
+        <button onclick="apiRequest()" class="dice-btn p-4 rounded-full relative top-6">
             <img class="h-5" src="images/icon-dice.svg" alt="">
         </button>
         
