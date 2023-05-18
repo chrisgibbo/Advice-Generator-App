@@ -1,17 +1,17 @@
-const adviceID = document.getElementById("advice-id")
-const adviceText = document.getElementById("advice-text")
+const adviceNum = document.getElementById("advice-num");
+const adviceQuote = document.getElementById("advice-quote");
 
 
 
-const adviceGenerator = function () {
+const apiRequest = function () {
     fetch("https://api.adviceslip.com/advice")
       .then((res) => res.json())
       .then((data) => {
-      adviceID.innerHTML = '#' + data.slip.id
-      adviceText.innerHTML = '"' + data.slip.advice + '"'
+        adviceNum.innerHTML = "addice" + " " + '#' + " " + data.slip.id;
+        adviceQuote.innerHTML = '"' + data.slip.advice + '"';
         
       });
       
   };
   
-  adviceGenerator();
+  apiRequest();
