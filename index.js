@@ -10,6 +10,6 @@ adviceBtn.addEventListener("click", function (){
             adviceQuote.innerHTML = '"' + data.slip.advice + '"';
         })
         .catch((err) => {
-            alert("There was an error!!!!!!!", err);
+            alert("There was an error!!", err);
         })
       })
